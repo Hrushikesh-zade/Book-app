@@ -1,0 +1,64 @@
+{
+  "books": [
+    {
+      "name": "stackroute",
+      "author": "hrushi",
+      "description": "something about the book",
+      "imageUrl": "url of the image",
+      "price": 50,
+      "id": 1
+    },
+    {
+      "name": "stackroute",
+      "author": "unknown",
+      "description": "something about the book",
+      "imageUrl": "url of the image",
+      "price": 200,
+      "id": 2
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "firstName": "hrushi",
+      "lastName": "zade",
+      "email": "hrushikeshzade@gmail.com",
+      "password": "sdhvjshv",
+      "phoneNumber": 7896541230
+    },
+    {
+      "firstName": "jhasfjh",
+      "lastName": "zadeja",
+      "email": "hrushikeshzade1999@gmail.com",
+      "password": "gerwgwer",
+      "phoneNumber": "54654635",
+      "id": 2
+    },
+    {
+      "firstName": "sdasad",
+      "lastName": "zadeja",
+      "email": "h@gmamil.com",
+      "password": "sdaga",
+      "phoneNumber": "54654635",
+      "id": 3
+    }
+  ],
+  "wishlist": [
+    {
+      "name": "stackroute",
+      "author": "hrushi",
+      "description": "somthing about the book",
+      "imageUrl": "url of the image",
+      "price": 50,
+      "id": 1
+    },
+    {
+      "name": "stackroute",
+      "author": "unknown",
+      "description": "somthing about the book",
+      "imageUrl": "url of the image",
+      "price": 50,
+      "id": 2
+    }
+  ]
+}

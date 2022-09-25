@@ -1,0 +1,41 @@
+<div class="card rounded shadow-lg" style="width: 15rem; height: 30rem; margin: 0 auto">
+  <div
+    class="fluid-container"
+    style="
+      height: 25rem;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: wrap;
+    "
+  >
+    <img
+      class="card-img-top"
+      src="{{ book.imageUrl }}"
+      alt="samplelink"
+      style="height: 10rem"
+    />
+
+    <div class="card-body">
+      <h5 class="card-title">{{ book.bookName }}</h5>
+      <p class="card-subtitle mb-2 text-muted">{{ book.authorName }}</p>
+      <p class="card-text">{{ book.description }}</p>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <!-- <div class="card-footer text-center">
+    <button class="btn btn-theme btn-primary float-start" type="button">
+      Add to bag
+    </button> -->
+  
+    <button class="btn btn-theme btn-danger float-end" 
+    (click)="addToWishlist()"
+    type="button">
+     ADD TO WISHLIST
+    </button>
+  <!-- </div> -->
+
+</div>
+
+
+<!-- ********************** -->

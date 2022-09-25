@@ -1,0 +1,73 @@
+<section class="vh-100 ">
+  
+    <nav class="navbar navbar-light gradient-custom">
+      <a class="navbar-brand" href="#">
+        <img src="../../../../assets/images/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+        BookStore
+      </a>
+    </nav>
+    
+      <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-md-9 col-lg-6 col-xl-5">
+            <img
+              src="https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg"
+              class="img-fluid"
+              alt="Sample image"
+            />
+          </div>
+          <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+
+            <form (ngSubmit)="onSubmit()">
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input
+                [(ngModel)]="credentials.email"
+ 
+                  required
+                  name="email"
+                  type="email"
+                  id="form3Example3"
+                  class="form-control form-control-lg"
+                  placeholder="Enter a valid email address"
+                  
+                />
+                <label class="form-label" for="form3Example3">Email address</label>
+              </div>
+    
+              <!-- Password input -->
+              <div class="form-outline mb-3">
+                <input
+                [(ngModel)]="credentials.password"
+                required
+                name="password"
+                  type="password"
+                  id="form3Example4"
+                  class="form-control form-control-lg"
+                  placeholder="Enter password"
+                />
+                
+                <label class="form-label" for="form3Example4">Password</label>
+              </div>
+    
+              <div class="text-center text-lg-start mt-4 pt-2">
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-lg"
+                  style="padding-left: 2.5rem; padding-right: 2.5rem"
+                >
+                  Login
+                </button>
+                <p class="small fw-bold mt-2 pt-1 mb-0">
+                  Don't have an account?
+                  <a [routerLink]="['/register']" class="link-danger">Register</a>
+                </p>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+      <app-footer class="fixed-bottom"></app-footer>
+    </section>
+    
