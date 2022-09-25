@@ -1,0 +1,55 @@
+2022-09-20 16:19:42.982  INFO 4768 --- [restartedMain] i.b.w.WishlistServiceApplication         : Starting WishlistServiceApplication using Java 17.0.3.1 on DESKTOP-9IJ6TN8 with PID 4768 (D:\project\WorkingVersion\book-app\BookApp-Backend\wishlist-service\target\classes started by hrush in D:\project\WorkingVersion\book-app)
+2022-09-20 16:19:42.987  INFO 4768 --- [restartedMain] i.b.w.WishlistServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-09-20 16:19:43.032  INFO 4768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-20 16:19:43.034  INFO 4768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-20 16:19:43.404  INFO 4768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-20 16:19:43.485  INFO 4768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 1 MongoDB repository interfaces.
+2022-09-20 16:19:43.638  INFO 4768 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=db67d103-7c58-30cf-858a-93093b312a7a
+2022-09-20 16:19:44.030  INFO 4768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2022-09-20 16:19:44.040  INFO 4768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-20 16:19:44.041  INFO 4768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-09-20 16:19:44.362  INFO 4768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-20 16:19:44.362  INFO 4768 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1327 ms
+2022-09-20 16:19:44.451  INFO 4768 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-20 16:19:44.512  INFO 4768 --- [cluster-ClusterId{value='63299ac89f22f41905dfc3b9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2022-09-20 16:19:44.512  INFO 4768 --- [cluster-rtt-ClusterId{value='63299ac89f22f41905dfc3b9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2022-09-20 16:19:44.512  INFO 4768 --- [cluster-ClusterId{value='63299ac89f22f41905dfc3b9', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=28971700}
+2022-09-20 16:19:44.534  WARN 4768 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-20 16:19:44.600  WARN 4768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-09-20 16:19:44.637  WARN 4768 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-20 16:19:45.213  INFO 4768 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-09-20 16:19:45.339  WARN 4768 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-20 16:19:45.363  INFO 4768 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-09-20 16:19:45.463  INFO 4768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-09-20 16:19:45.469  INFO 4768 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-20 16:19:45.494  INFO 4768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-09-20 16:19:45.495  INFO 4768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-09-20 16:19:45.495  INFO 4768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-09-20 16:19:45.495  INFO 4768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-09-20 16:19:45.496  INFO 4768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-09-20 16:19:45.497  INFO 4768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-09-20 16:19:45.497  INFO 4768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-09-20 16:19:45.739  INFO 4768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-09-20 16:19:45.741  INFO 4768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-09-20 16:19:45.744  INFO 4768 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-20 16:19:45.747  INFO 4768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1663670985746 with initial instances count: 0
+2022-09-20 16:19:45.749  INFO 4768 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UNKNOWN with eureka with status UP
+2022-09-20 16:19:45.749  INFO 4768 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1663670985749, current=UP, previous=STARTING]
+2022-09-20 16:19:45.751  INFO 4768 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/DESKTOP-9IJ6TN8:9000: registering service...
+2022-09-20 16:19:45.769  INFO 4768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-20 16:19:45.770  INFO 4768 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9000
+2022-09-20 16:19:45.811  INFO 4768 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/DESKTOP-9IJ6TN8:9000 - registration status: 204
+2022-09-20 16:19:45.812  INFO 4768 --- [restartedMain] i.b.w.WishlistServiceApplication         : Started WishlistServiceApplication in 3.16 seconds (JVM running for 3.701)
+2022-09-20 16:20:15.748  INFO 4768 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-09-20 16:20:15.750  INFO 4768 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-09-20 16:20:15.752  INFO 4768 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-09-20 16:20:15.753  INFO 4768 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-09-20 16:20:15.754  INFO 4768 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-09-20 16:20:15.754  INFO 4768 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-09-20 16:20:15.757  INFO 4768 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-09-20 16:20:15.782  INFO 4768 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-09-20 16:20:22.358  INFO 4768 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-20 16:24:45.510  INFO 4768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-20 16:29:45.516  INFO 4768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-20 16:34:45.527  INFO 4768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-20 16:39:45.544  INFO 4768 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
